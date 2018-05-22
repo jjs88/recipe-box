@@ -1,0 +1,19 @@
+.Ingredients {
+  transition: all .3s ease-in-out;
+}
+
+.Ingredients.Open {
+  opacity: 1;
+  height: 100%;
+  visibility: visible;
+}
+
+.Ingredients.Close {
+  opacity: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.Ingredients__title {
+  text-align: center;
+}

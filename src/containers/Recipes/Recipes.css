@@ -1,0 +1,9 @@
+.Recipes {
+  border: 1px solid #bdc3c7;
+  border-radius: 3px;
+  background-color: #ecf0f1;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+}

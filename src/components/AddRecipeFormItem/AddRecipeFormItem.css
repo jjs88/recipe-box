@@ -1,0 +1,16 @@
+.AddRecipeFormItem {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.AddRecipeFormItem label {
+  font-size: 110%;
+  margin-bottom: 5px;
+}
+
+
+.AddRecipeFormItem input {
+  font-size: 105%;
+}

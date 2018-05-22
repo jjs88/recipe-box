@@ -1,0 +1,23 @@
+.Recipe {
+  border-radius: 5px;
+  color: #ecf0f1;
+  background-color: #85c1e9;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 3px 2px 3px #2c3e50;
+}
+
+.Recipe:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.Recipe__name {
+  margin: 0;
+  font-size: 120%;
+}
+
+.Recipe__name:hover {
+  color: #34495e;
+  cursor: pointer;
+}

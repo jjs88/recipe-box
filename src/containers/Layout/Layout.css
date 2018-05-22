@@ -1,0 +1,7 @@
+.Layout {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}

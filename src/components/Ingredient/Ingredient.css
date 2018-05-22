@@ -1,0 +1,16 @@
+.Ingredient {
+  border: 1px solid #7f8c8d;
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  font-size: 95%;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.Ingredient:not(:last-child) {
+  border-bottom: 0;
+}
+
+.Ingredient:last-child {
+  margin-bottom: 10px;
+}

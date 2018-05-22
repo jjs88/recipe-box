@@ -1,0 +1,17 @@
+@import './containers/Recipes/Recipes.css';
+@import './components/Recipe/Recipe.css';
+@import './containers/Ingredients/Ingredients.css';
+@import './components/Ingredient/Ingredient.css';
+@import './components/ui/Button/Button.css';
+@import './containers/Layout/Layout.css';
+@import './components/ui/Modal/modal.css';
+@import './components/ui/Modal/ModalContent/ModalContent.css';
+@import './components/AddRecipeForm/AddRecipeForm.css';
+@import './components/AddRecipeFormItem/AddRecipeFormItem.css';
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
