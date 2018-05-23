@@ -13,6 +13,7 @@ class AddRecipeForm extends Component {
     //split ingredients here
     const list = this.state.ingredients.split(',');    
     this.props.addRecipe(this.state.name, list);
+    e.target.reset();
   }
 
 
