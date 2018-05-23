@@ -17,3 +17,8 @@
 .Ingredients__title {
   text-align: center;
 }
+
+.row {
+  display: flex;
+  margin-top: 5px;
+}

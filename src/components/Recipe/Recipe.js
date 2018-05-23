@@ -19,7 +19,7 @@ class Recipe extends Component {
     return (
       <div className="Recipe">
         <p className="Recipe__name" onClick={this.toggleIngredients}>{name}</p>
-        <Ingredients ingredients={ingredients} open={this.state.open}/>
+        <Ingredients ingredients={ingredients} name={name} open={this.state.open} clickEditRecipe={this.props.clickEditRecipe} removeRecipe={this.props.removeRecipe}/>
       </div>
     )
   }

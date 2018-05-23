@@ -5,7 +5,8 @@ const ModalContent = (props) => {
 
   return (
     <div className="ModalContent" >
-      <AddRecipeForm addRecipe={props.addRecipe} toggleModal={props.toggleModal}/>
+      {/* <AddRecipeForm addRecipe={props.addRecipe} toggleModal={props.toggleModal}/> */}
+      {props.children}
     </div>
   )
 }
