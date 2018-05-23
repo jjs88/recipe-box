@@ -6,4 +6,18 @@
   padding: 20px;
   width: 100%;
   margin: 0 auto;
+  transition: all .3s ease-in;
+  animation: .2s anim ease-in;
+}
+
+
+.please-add {
+  transition: all .3s ease-in-out;
+  animation: .2s anim ease-in-out;
+}
+
+
+@keyframes anim {
+  0% { opacity: 0;}
+  100% {opacity: 1;}
 }

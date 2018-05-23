@@ -6,6 +6,8 @@
   flex-direction: column;
   padding: 10px;
   box-shadow: 3px 2px 3px #2c3e50;
+  transition: all .3s ease-in-out;
+  animation: .3s recipe ease-in-out;
 }
 
 .Recipe:not(:last-child) {
@@ -20,4 +22,10 @@
 .Recipe__name:hover {
   color: #34495e;
   cursor: pointer;
+}
+
+
+@keyframes recipe {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
