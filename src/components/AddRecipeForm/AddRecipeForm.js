@@ -11,8 +11,10 @@ class AddRecipeForm extends Component {
   submitForm = (e) => {
     e.preventDefault();
     //split ingredients here
+    if(!this.state.name || !this.state.ingredients) return;
     const list = this.state.ingredients.split(',');    
     this.props.addRecipe(this.state.name, list);
+    this.setState({name: null, ingredients: null})
     e.target.reset();
   }
 
