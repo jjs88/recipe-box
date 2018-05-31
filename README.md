@@ -2,4 +2,4 @@
 
 Built using react
 
-(live)[https://recipe-box2.herokuapp.com]
+[live](https://recipe-box2.herokuapp.com)
