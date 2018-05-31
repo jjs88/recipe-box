@@ -15,20 +15,7 @@ class App extends Component {
     editRecipe: false,
     modalOpen: false,
     recipeToEdit: null,
-    recipes: [
-      {
-        name: 'Pizza',
-        ingredients: ['Thin Crust','Green Peppers', 'Pepperoni']
-      },
-      {
-        name: 'bread',
-        ingredients: ['Thin Crust','Green Peppers', 'Pepperoni']
-      },
-      {
-        name: 'nom',
-        ingredients: ['Thin Crust','Green Peppers', 'Pepperoni']
-      }
-    ]
+    recipes: []
   }
 
   toggleModal = () => this.setState({modalOpen: !this.state.modalOpen});
